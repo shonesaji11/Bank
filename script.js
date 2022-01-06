@@ -158,7 +158,7 @@ function getDate() {
 function setValidWindow(){
   currentTime = new Date ();
   logOutTime = new Date ( currentTime );
-  validWindow = 1;
+  validWindow = 5;
   logOutTime.setMinutes ( currentTime.getMinutes() + validWindow );
   countDown();
 }
